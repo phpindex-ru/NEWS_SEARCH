@@ -15,7 +15,7 @@ YYYY.MM.DD HH:MM:SS
 </head>
 <body>
 <fieldset><legend><small>Введите дату начала и окончания</small></legend>
-    <form action="query_save.php" method="post">
+    <form action="index.php" method="post">
     Дата начала: <input type="datetime-local" name="timestart">
     Дата окончания : <input type="datetime-local" name="timeend">
     <input type="submit" name="submit" value="submit">
